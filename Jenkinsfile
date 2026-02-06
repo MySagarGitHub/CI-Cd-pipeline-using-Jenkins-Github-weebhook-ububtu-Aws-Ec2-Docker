@@ -39,7 +39,7 @@ pipeline {
             steps {
                 emailext(
                     subject: "Deployment Successful: ${IMAGE_NAME}",
-                    body: "The Docker container ${CONTAINER_NAME} has been successfully deployed and is running on port http://100.48.59.4:8080/.",
+                    body: "The Docker container ${CONTAINER_NAME} has been successfully deployed and is running on port http://3.237.39.59:8080/.",
                     to: "${EMAIL}"
                 )
             }
