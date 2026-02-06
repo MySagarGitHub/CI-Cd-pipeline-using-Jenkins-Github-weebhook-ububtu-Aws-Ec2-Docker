@@ -42,7 +42,7 @@ pipeline {
 
         stage('Send Notification Email') {
             steps {
-                emailtext(
+                emailext(
                     subject: "Deployment Successful: ${IMAGE_NAME}",
                     body: "The Docker container ${CONTAINER_NAME} has been successfully deployed and is running on port http://100.48.59.4:8080/.",
                     to: "${EMAIL}"
