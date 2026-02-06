@@ -9,20 +9,17 @@ pipeline {
     }
 
     stages {
-
         stage('clone repo') {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/MySagarGitHub/CI-Cd-pipeline-using-Jenkins-Github-weebhook-ububtu-Aws-Ec2-Docker'
             }
         }
-
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t $IMAGE_NAME .'
             }
         }
-
         stage('stop and remove existing container') {
             steps {
                 sh '''
@@ -31,7 +28,6 @@ pipeline {
                 '''
             }
         }
-
         stage('Run Docker Container') {
             steps {
                 sh '''
@@ -39,7 +35,6 @@ pipeline {
                 '''
             }
         }
-
         stage('Send Notification Email') {
             steps {
                 emailext(
