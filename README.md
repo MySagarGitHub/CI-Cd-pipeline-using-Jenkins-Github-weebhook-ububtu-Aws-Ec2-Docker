@@ -2,10 +2,8 @@
 # CI-Cd-pipeline-using-Jenkins-Github-weebhook-ububtu-Aws-Ec2-Docker
 
 
-Create a powerful NestJS backend app<br>
-Write a Jenkins Declarative Pipeline (Jenkinsfile)
-Clone GitHub repo automatically<br>
-Build and run Docker image of your app<br>
+
+Build and run Docker image of  app<br>
 Stop & remove previous Docker containers<br>
 Run new container on AWS EC2 instance<br>
 Use Google App Password to send Email Notifications from Jenkins<br>
