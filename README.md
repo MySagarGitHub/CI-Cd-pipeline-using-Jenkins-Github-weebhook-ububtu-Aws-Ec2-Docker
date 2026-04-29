@@ -6,6 +6,8 @@
 
 </h1>
 <h2>
+<img width="914" height="1624" alt="pipeline1" src="https://github.com/user-attachments/assets/1dfa2005-de49-4c77-8f57-9c9e61dc2557" />
+
 
 </h2>
 Build and run Docker image of  app<br>
