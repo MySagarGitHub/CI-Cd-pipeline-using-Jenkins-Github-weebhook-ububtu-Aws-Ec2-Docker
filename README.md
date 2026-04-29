@@ -1,8 +1,13 @@
 <<<<<<< HEAD
 # CI-Cd-pipeline-using-Jenkins-Github-weebhook-ububtu-Aws-Ec2-Docker
 
+<h1>
+<img width="914" height="1624" alt="pipeline2" src="https://github.com/user-attachments/assets/b660c4f3-64f7-457b-b4a3-b8f948598351" />
 
+</h1>
+<h2>
 
+</h2>
 Build and run Docker image of  app<br>
 Stop & remove previous Docker containers<br>
 Run new container on AWS EC2 instance<br>
